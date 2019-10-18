@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Materi Android</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">Materi</string>
+    <string name="isi_placeholder">Isi</string>
+    <string name="materi_info_placeholder">Here is some news</string>
+    <string name="link">Content Providers
+Sebuah komponen content provider menyediakan data dari satu aplikasi ke yang lain atas permintaan. Permintaan tersebut akan di tangani methods dari kelas ContentResolver. Data dapat disimpan di dalam sistem file, database atau lainnya.
+
+Sebuah Content Providers di implementasikan sebagai subclass dari class ContentProviders dan harus menerapkan satu set standar API yang memungkinkan aplikasi lain untuk melakukan transaksi.
+
+ public class MyContentProvider extends ContentProvider {
+
+}</string><string name="but">Link</string>
+
+    <string-array name="materi_isi">
+        <item>Klik Disini Untuk Lihat Materi Activities</item>
+        <item>Klik Disini Untuk Lihat Materi Services</item>
+        <item>Klik Disini Untuk Lihat Materi Broadcast Receivers</item>
+        <item>Klik Disini Untuk Lihat Materi Content Providers</item>
+        <item>Klik Disini Untuk Lihat Materi Intent</item>
+    </string-array>
+
+    <string-array name="materi_titles">
+        <item>Activities</item>
+        <item>Services</item>
+        <item>Broadcast Receivers</item>
+        <item>Content Providers</item>
+        <item>Intent</item>
+
+    </string-array>
+
+    <string-array name="materi_info">
+        <item>Klik Disini Untuk Lihat Materi Activities</item>
+        <item>Klik Disini Untuk Lihat Materi Services</item>
+        <item>Klik Disini Untuk Lihat Materi Broadcast Receivers</item>
+        <item>Klik Disini Untuk Lihat Materi Content Providers</item>
+        <item>Klik Disini Untuk Lihat Materi Intent</item>
+    </string-array>
+
+    <array name="materi_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+    </array>
+
+</resources>
